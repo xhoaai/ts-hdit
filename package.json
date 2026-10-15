@@ -1,0 +1,23 @@
+{
+  "name": "ts-hdit",
+  "version": "1.0.0",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhoaai/ts-hdit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhoaai/ts-hdit/issues"
+  },
+  "homepage": "https://github.com/xhoaai/ts-hdit#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
