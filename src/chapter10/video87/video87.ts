@@ -1,3 +1,4 @@
+export {};
 console.log("video 87 with typescript")
 
 let age = 25;

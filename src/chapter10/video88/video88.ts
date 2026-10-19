@@ -1,4 +1,4 @@
-
+export {};
 console.log("video 88");
 
 let username: string = "hdit"; //string
