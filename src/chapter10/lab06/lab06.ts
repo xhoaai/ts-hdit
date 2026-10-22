@@ -44,21 +44,21 @@ type Tcourse = {
     students: TStudent []
 }
 
-const student1: TStudent = {
-    id: 134,
-    name: "htit",
-    email: "hdit@gmail.com",
-    isPremium: true,
-    contact: "alan@hdit.com"
-}
+// const student1: TStudent = {
+//     id: 134,
+//     name: "htit",
+//     email: "hdit@gmail.com",
+//     isPremium: true,
+//     contact: "alan@hdit.com"
+// }
 
-const student2: TStudent = {
-    id: 184,
-    name: "alan",
-    email: "alan@gmail.com",
-    isPremium: false,
-    contact: 646464613
-}
+// const student2: TStudent = {
+//     id: 184,
+//     name: "alan",
+//     email: "alan@gmail.com",
+//     isPremium: false,
+//     contact: 646464613
+// }
 
 const myCourse1: Tcourse = {
     courseId: 1,
@@ -67,9 +67,16 @@ const myCourse1: Tcourse = {
     students: [student1, student2]
 }
 
-const registerStudentToCourse(student: TStudent, course: Tcourse) => {
+const myCourse2: Tcourse = {
+    courseId: 2,
+    title: "React Pro with hoidanit", 
+    price: 390000,
+    students: [student1, student2]
+}
+
+const registerStudentToCourse = (student: TStudent, course: Tcourse) => {
     course.students.push(student);
-    return course;
+    //return course;
 }
 
 //4. Viet ham printCourseInfo(course)
@@ -80,8 +87,8 @@ const registerStudentToCourse(student: TStudent, course: Tcourse) => {
 
 const printCourseInfo = (course: TCourse) => {
     console.log(`
-        Ten khoa hoc: ${course.title}
-        So hoc vien da dang ky: ${course.students.length}
+Ten khoa hoc: ${course.title}
+So hoc vien da dang ky: ${course.students.length}
         
         `);
         if(course.students.length === 0){
@@ -93,5 +100,8 @@ const printCourseInfo = (course: TCourse) => {
         }
 }
 
-const updateCourse1 = registerStudentToCourse(student1, myCourse1);
-printCourseInfo(updateCourse1);
+registerStudentToCourse(student1, myCourse1);
+registerStudentToCourse(student2, myCourse2);
+printCourseInfo(myCourse1);
+console.log("=================")
+printCourseInfo(myCourse2;
