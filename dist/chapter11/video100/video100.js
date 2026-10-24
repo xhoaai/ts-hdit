@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 100");
 const user = " USER";
 const admin = "ADMIN";
@@ -15,3 +13,4 @@ const myRole1 = RoleEnum.USER;
 const myRole2 = RoleEnum.ADMIN;
 console.log(">>> enum myRole1 = ", myRole1);
 console.log(">>> enum myRole2 = ", myRole2);
+export {};

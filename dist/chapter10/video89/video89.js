@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 89");
 const name = ["hdit", "Alan"];
 const score = [10, 4, 8];
@@ -8,3 +6,4 @@ const name2 = ["hdit", "Alan"];
 const score2 = [10, 4, 8];
 console.log("name: ", name);
 console.log("scor: ", score);
+export {};
