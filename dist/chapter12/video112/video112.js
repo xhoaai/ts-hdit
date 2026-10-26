@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 112");
 //class: dinh nghia tong quat, mieu ta chung chung
 class Lion {
@@ -21,4 +23,3 @@ const sutu2 = new Lion(); //clone
 sutu2.color = "white";
 sutu2.name = "alan";
 sutu2.sleep();
-export {};

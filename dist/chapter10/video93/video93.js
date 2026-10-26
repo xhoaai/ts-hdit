@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 93");
 //union
 let username = "hdit@gmail.com"; // email
@@ -10,4 +12,3 @@ const printfUsername = (username) => {
         console.log("my username = ", username.toUpperCase());
 };
 printfUsername("hdit with alan");
-export {};
