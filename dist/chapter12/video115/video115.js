@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+console.log("video 115");
+class Animal {
+    constructor(name, id) {
+        this.name = name;
+        this.id = id;
+    }
+    //method
+    makeSound() {
+        console.log("bla bla with id = ", this.id);
+    }
+}
+const myDog = new Animal("dog", 100);
+console.log("animal name = ", myDog.name, "and id = ");
+myDog.makeSound();
